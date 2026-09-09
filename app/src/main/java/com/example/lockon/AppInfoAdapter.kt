@@ -1,5 +1,6 @@
 package com.example.lockon
 
+import android.content.SharedPreferences
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,8 +9,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class AppInfoAdapter(val applist: Array<Applist>) :
+class AppInfoAdapter(val applist: Array<Applist>,private var sharedPreferences: SharedPreferences) :
     RecyclerView.Adapter<AppInfoAdapter.ApplistViewHolder>() {
+
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -31,6 +33,20 @@ class AppInfoAdapter(val applist: Array<Applist>) :
 
         holder.tvAppName.text = app.appname
         holder.imgappicon.setImageDrawable(app.icon)
+
+        holder.checkvalue.setOnCheckedChangeListener(null)
+        holder.checkvalue.isChecked = app.lockset
+
+        holder.checkvalue.setOnCheckedChangeListener { _, is_checked ->
+            app.lockset = is_checked
+
+            sharedPreferences.edit()
+                .putBoolean(app.pck, is_checked)
+                .commit()
+        }
+
+
+
     }
 
     override fun getItemCount(): Int {
@@ -45,6 +61,10 @@ class AppInfoAdapter(val applist: Array<Applist>) :
 
         var imgappicon : ImageView =
             itemView.findViewById(R.id.icon_of_app)
+
+
+
+
 
         var checkvalue : CheckBox = itemView.findViewById(R.id.app_lock)
 
