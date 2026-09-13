@@ -1,8 +1,11 @@
 package com.example.lockon
 
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -25,8 +28,15 @@ class MainActivity : AppCompatActivity() {
         val rv = findViewById<RecyclerView>(R.id.rv_contact)
         val pm = packageManager
         val applist = ArrayList<Applist>()
-        val monitor = Appmonitor(this,sharedPref)
+
         val apps = pm.getInstalledApplications(PackageManager.GET_META_DATA)
+
+        val btnSetPin = findViewById<Button>(R.id.set_a_pin)
+
+        btnSetPin.setOnClickListener {
+            val intent = Intent(this, SetALock::class.java)
+            startActivity(intent)
+        }
         for (app in apps) {
 
             val launchIntent = pm.getLaunchIntentForPackage(app.packageName)
@@ -49,7 +59,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        monitor.startMonitoring()
+        val intent = Intent(this, LockOnService::class.java)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(intent)
+        } else {
+            startService(intent)
+        }
         rv.adapter = AppInfoAdapter(applist.toTypedArray(),sharedPref)
     }
 }
