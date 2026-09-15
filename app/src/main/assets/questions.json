@@ -1,0 +1,522 @@
+[
+  {
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "New Delhi", "Kolkata"],
+    "answer": 1
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Venus", "Jupiter"],
+    "answer": 0
+  },
+  {
+    "question": "How many days are there in a leap year?",
+    "options": ["365", "366", "364"],
+    "answer": 1
+  },
+  {
+    "question": "What is 12 × 8?",
+    "options": ["96", "86", "108"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+    "answer": 2
+  },
+  {
+    "question": "Which gas do humans need for respiration?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+    "answer": 0
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["CO2", "H2O", "O2"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Saturn", "Jupiter", "Earth"],
+    "answer": 1
+  },
+  {
+    "question": "How many continents are there?",
+    "options": ["5", "6", "7"],
+    "answer": 2
+  },
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": ["Tiger", "Lion", "Elephant"],
+    "answer": 1
+  },
+  {
+    "question": "What is the currency of India?",
+    "options": ["Rupee", "Dollar", "Pound"],
+    "answer": 0
+  },
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": ["Lungs", "Brain", "Heart"],
+    "answer": 2
+  },
+  {
+    "question": "What is 15 + 27?",
+    "options": ["42", "40", "52"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": ["Lion", "Cheetah", "Horse"],
+    "answer": 1
+  },
+  {
+    "question": "Which country is famous for the Great Wall?",
+    "options": ["China", "Japan", "India"],
+    "answer": 0
+  },
+  {
+    "question": "How many sides does a triangle have?",
+    "options": ["3", "4", "5"],
+    "answer": 0
+  },
+  {
+    "question": "Which vitamin is mainly produced when skin is exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D"],
+    "answer": 2
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "options": ["90°C", "100°C", "120°C"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the smallest prime number?",
+    "options": ["1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "question": "Who wrote the national anthem of India?",
+    "options": ["Rabindranath Tagore", "Mahatma Gandhi", "Bankim Chandra Chattopadhyay"],
+    "answer": 0
+  },
+  {
+    "question": "Which programming language is officially preferred for modern Android development?",
+    "options": ["Kotlin", "HTML", "SQL"],
+    "answer": 0
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility"],
+    "answer": 0
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": ["Read Access Memory", "Random Access Memory", "Rapid Access Machine"],
+    "answer": 1
+  },
+  {
+    "question": "Which device is used to type text into a computer?",
+    "options": ["Monitor", "Keyboard", "Speaker"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is an operating system?",
+    "options": ["Android", "Google", "YouTube"],
+    "answer": 0
+  },
+  {
+    "question": "What does WWW stand for?",
+    "options": ["World Wide Web", "World Web Window", "Wide World Website"],
+    "answer": 0
+  },
+  {
+    "question": "Which data structure follows FIFO?",
+    "options": ["Stack", "Queue", "Tree"],
+    "answer": 1
+  },
+  {
+    "question": "Which data structure follows LIFO?",
+    "options": ["Queue", "Stack", "Graph"],
+    "answer": 1
+  },
+  {
+    "question": "Which language is commonly used to style web pages?",
+    "options": ["CSS", "SQL", "Python"],
+    "answer": 0
+  },
+  {
+    "question": "What does SQL commonly stand for?",
+    "options": ["Structured Query Language", "Simple Question Language", "System Query List"],
+    "answer": 0
+  },
+  {
+    "question": "What is 9²?",
+    "options": ["18", "81", "72"],
+    "answer": 1
+  },
+  {
+    "question": "What is the square root of 64?",
+    "options": ["6", "8", "10"],
+    "answer": 1
+  },
+  {
+    "question": "What is 100 divided by 4?",
+    "options": ["20", "25", "30"],
+    "answer": 1
+  },
+  {
+    "question": "What is 7 × 7?",
+    "options": ["49", "56", "42"],
+    "answer": 0
+  },
+  {
+    "question": "What is 25% of 100?",
+    "options": ["20", "25", "50"],
+    "answer": 1
+  },
+  {
+    "question": "Which number comes next: 2, 4, 6, 8, ?",
+    "options": ["9", "10", "12"],
+    "answer": 1
+  },
+  {
+    "question": "Which number comes next: 5, 10, 15, 20, ?",
+    "options": ["25", "30", "24"],
+    "answer": 0
+  },
+  {
+    "question": "If 3 + 5 = 8, what is 8 + 7?",
+    "options": ["14", "15", "16"],
+    "answer": 1
+  },
+  {
+    "question": "How many degrees are in a right angle?",
+    "options": ["45°", "90°", "180°"],
+    "answer": 1
+  },
+  {
+    "question": "What is the perimeter of a square with side 5 cm?",
+    "options": ["20 cm", "25 cm", "10 cm"],
+    "answer": 0
+  },
+  {
+    "question": "Which force pulls objects toward Earth?",
+    "options": ["Magnetism", "Gravity", "Friction"],
+    "answer": 1
+  },
+  {
+    "question": "What is the SI unit of force?",
+    "options": ["Newton", "Joule", "Watt"],
+    "answer": 0
+  },
+  {
+    "question": "Which instrument measures temperature?",
+    "options": ["Barometer", "Thermometer", "Hygrometer"],
+    "answer": 1
+  },
+  {
+    "question": "Which part of a plant performs most photosynthesis?",
+    "options": ["Root", "Leaf", "Flower"],
+    "answer": 1
+  },
+  {
+    "question": "What gas do plants absorb during photosynthesis?",
+    "options": ["Oxygen", "Carbon dioxide", "Hydrogen"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the nearest star to Earth?",
+    "options": ["Sirius", "The Sun", "Polaris"],
+    "answer": 1
+  },
+  {
+    "question": "How many bones are there approximately in an adult human body?",
+    "options": ["206", "150", "300"],
+    "answer": 0
+  },
+  {
+    "question": "Which blood cells help fight infections?",
+    "options": ["Red blood cells", "White blood cells", "Platelets"],
+    "answer": 1
+  },
+  {
+    "question": "Which organ is primarily responsible for filtering blood?",
+    "options": ["Kidneys", "Heart", "Stomach"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest mammal?",
+    "options": ["Elephant", "Blue whale", "Giraffe"],
+    "answer": 1
+  },
+  {
+    "question": "Which bird is known for being unable to fly?",
+    "options": ["Eagle", "Penguin", "Sparrow"],
+    "answer": 1
+  },
+  {
+    "question": "What is the national animal of India?",
+    "options": ["Lion", "Bengal Tiger", "Elephant"],
+    "answer": 1
+  },
+  {
+    "question": "What is the national flower of India?",
+    "options": ["Rose", "Lotus", "Sunflower"],
+    "answer": 1
+  },
+  {
+    "question": "What is the national bird of India?",
+    "options": ["Peacock", "Parrot", "Eagle"],
+    "answer": 0
+  },
+  {
+    "question": "Which Indian city is known as the Pink City?",
+    "options": ["Jaipur", "Delhi", "Ahmedabad"],
+    "answer": 0
+  },
+  {
+    "question": "Which Indian state is famous for Gir National Park and Asiatic lions?",
+    "options": ["Gujarat", "Rajasthan", "Kerala"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the longest river in India?",
+    "options": ["Ganga", "Yamuna", "Narmada"],
+    "answer": 0
+  },
+  {
+    "question": "Which Indian state is famous for the backwaters of Alleppey?",
+    "options": ["Kerala", "Gujarat", "Punjab"],
+    "answer": 0
+  },
+  {
+    "question": "Which desert is located mainly in India?",
+    "options": ["Sahara Desert", "Thar Desert", "Gobi Desert"],
+    "answer": 1
+  },
+  {
+    "question": "Which mountain range contains Mount Everest?",
+    "options": ["Himalayas", "Alps", "Andes"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest country in the world by area?",
+    "options": ["Canada", "Russia", "China"],
+    "answer": 1
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Tokyo", "Kyoto", "Osaka"],
+    "answer": 0
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": ["Rome", "Paris", "Madrid"],
+    "answer": 1
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["Japan", "China", "South Korea"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest continent?",
+    "options": ["Africa", "Asia", "Europe"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the smallest continent?",
+    "options": ["Australia", "Europe", "Antarctica"],
+    "answer": 0
+  },
+  {
+    "question": "Which ocean lies between Africa and Australia?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has the city of Cairo as its capital?",
+    "options": ["Egypt", "Turkey", "Greece"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India?",
+    "options": ["Sardar Patel", "Jawaharlal Nehru", "Rajendra Prasad"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Father of the Nation in India?",
+    "options": ["Mahatma Gandhi", "Subhas Chandra Bose", "Bhagat Singh"],
+    "answer": 0
+  },
+  {
+    "question": "India became independent in which year?",
+    "options": ["1945", "1947", "1950"],
+    "answer": 1
+  },
+  {
+    "question": "The Constitution of India came into effect in which year?",
+    "options": ["1947", "1950", "1952"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the first President of India?",
+    "options": ["Dr. Rajendra Prasad", "Jawaharlal Nehru", "Dr. S. Radhakrishnan"],
+    "answer": 0
+  },
+  {
+    "question": "Which movement was launched by Mahatma Gandhi in 1942?",
+    "options": ["Quit India Movement", "Non-Cooperation Movement", "Swadeshi Movement"],
+    "answer": 0
+  },
+  {
+    "question": "Who wrote the Indian national song 'Vande Mataram'?",
+    "options": ["Bankim Chandra Chattopadhyay", "Rabindranath Tagore", "Sarojini Naidu"],
+    "answer": 0
+  },
+  {
+    "question": "Which ancient civilization developed around the Indus River?",
+    "options": ["Roman Civilization", "Indus Valley Civilization", "Greek Civilization"],
+    "answer": 1
+  },
+  {
+    "question": "Where is the Taj Mahal located?",
+    "options": ["Agra", "Delhi", "Jaipur"],
+    "answer": 0
+  },
+  {
+    "question": "Who commissioned the Taj Mahal?",
+    "options": ["Akbar", "Shah Jahan", "Aurangzeb"],
+    "answer": 1
+  },
+  {
+    "question": "Which festival is known as the Festival of Lights in India?",
+    "options": ["Holi", "Diwali", "Eid"],
+    "answer": 1
+  },
+  {
+    "question": "Which festival is famous for colors?",
+    "options": ["Holi", "Diwali", "Pongal"],
+    "answer": 0
+  },
+  {
+    "question": "Which sport uses a bat, ball, and wickets?",
+    "options": ["Football", "Cricket", "Hockey"],
+    "answer": 1
+  },
+  {
+    "question": "How many players are on the field for one cricket team during a match?",
+    "options": ["9", "11", "12"],
+    "answer": 1
+  },
+  {
+    "question": "Which sport is associated with Wimbledon?",
+    "options": ["Tennis", "Cricket", "Football"],
+    "answer": 0
+  },
+  {
+    "question": "How many rings are there on the Olympic symbol?",
+    "options": ["4", "5", "6"],
+    "answer": 1
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": ["Badminton", "Tennis", "Table Tennis"],
+    "answer": 0
+  },
+  {
+    "question": "Which instrument has black and white keys?",
+    "options": ["Guitar", "Piano", "Flute"],
+    "answer": 1
+  },
+  {
+    "question": "How many strings does a standard guitar usually have?",
+    "options": ["4", "6", "8"],
+    "answer": 1
+  },
+  {
+    "question": "Which color is produced by mixing red and blue?",
+    "options": ["Green", "Purple", "Orange"],
+    "answer": 1
+  },
+  {
+    "question": "How many colors are traditionally listed in a rainbow?",
+    "options": ["5", "7", "9"],
+    "answer": 1
+  },
+  {
+    "question": "Which sense organ is used for hearing?",
+    "options": ["Eye", "Ear", "Nose"],
+    "answer": 1
+  },
+  {
+    "question": "Which sense organ detects smell?",
+    "options": ["Nose", "Ear", "Tongue"],
+    "answer": 0
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Mercury", "Copper"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the hardest natural substance?",
+    "options": ["Gold", "Diamond", "Iron"],
+    "answer": 1
+  },
+  {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide"],
+    "answer": 1
+  },
+  {
+    "question": "What is the freezing point of water?",
+    "options": ["0°C", "10°C", "100°C"],
+    "answer": 0
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Mercury", "Venus", "Earth"],
+    "answer": 0
+  },
+  {
+    "question": "How many planets are in our solar system?",
+    "options": ["7", "8", "9"],
+    "answer": 1
+  },
+  {
+    "question": "Which planet is famous for its prominent rings?",
+    "options": ["Mars", "Saturn", "Venus"],
+    "answer": 1
+  },
+  {
+    "question": "What is the approximate speed of light?",
+    "options": ["300,000 km/s", "30,000 km/s", "3,000 km/s"],
+    "answer": 0
+  },
+  {
+    "question": "Which device is used to measure atmospheric pressure?",
+    "options": ["Thermometer", "Barometer", "Speedometer"],
+    "answer": 1
+  },
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Tissue", "Cell", "Organ"],
+    "answer": 1
+  },
+  {
+    "question": "Which part of the human body controls most activities?",
+    "options": ["Brain", "Liver", "Stomach"],
+    "answer": 0
+  },
+  {
+    "question": "Which vitamin is commonly associated with citrus fruits?",
+    "options": ["Vitamin C", "Vitamin D", "Vitamin K"],
+    "answer": 0
+  },
+  {
+    "question": "What is the main source of energy for Earth?",
+    "options": ["The Moon", "The Sun", "The Wind"],
+    "answer": 1
+  }
+]

@@ -85,7 +85,7 @@ class LockOnAccessibilityService : AccessibilityService() {
 
         val intent = Intent(
             this,
-            LockScreen::class.java
+            QuestionActivity::class.java
         )
 
         // Tell LockScreen which app we are unlocking
@@ -96,7 +96,6 @@ class LockOnAccessibilityService : AccessibilityService() {
 
         intent.addFlags(
             Intent.FLAG_ACTIVITY_NEW_TASK
-
         )
 
         startActivity(intent)
