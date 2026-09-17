@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -6,108 +7,148 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
+    android:background="#F5F7FF"
+    android:padding="20dp"
     tools:context=".QuestionActivity">
 
-    <!-- Heading -->
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/appTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Answer the question to unlock the app"
-        android:textSize="20sp"
+        android:text="🔒 Lock-On"
+        android:textColor="#4F46E5"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Question number -->
+    <TextView
+        android:id="@+id/motivation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Learn something new, then enjoy something you love ✨"
+        android:textColor="#6B7280"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appTitle" />
+
     <TextView
         android:id="@+id/questionno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
+        android:background="#E0E7FF"
+        android:paddingStart="14dp"
+        android:paddingTop="7dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="7dp"
         android:text="Question 1 of 3"
-        android:textSize="16sp"
+        android:textColor="#4338CA"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView" />
+        app:layout_constraintTop_toBottomOf="@id/motivation" />
 
-    <!-- Question -->
-    <TextView
-        android:id="@+id/question"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/questionCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="What is the capital of India?"
-        android:textSize="19sp"
-        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/questionno" />
+        app:layout_constraintTop_toBottomOf="@id/questionno">
 
-    <!-- Options -->
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:text="What is the capital of India?"
+            android:textColor="#111827"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
     <RadioGroup
         android:id="@+id/optionsGroup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="18dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/question">
+        app:layout_constraintTop_toBottomOf="@id/questionCard">
 
         <RadioButton
             android:id="@+id/option1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:buttonTint="#4F46E5"
+            android:padding="14dp"
             android:text="Mumbai"
+            android:textColor="#1F2937"
             android:textSize="17sp" />
 
         <RadioButton
             android:id="@+id/option2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:buttonTint="#4F46E5"
+            android:padding="14dp"
             android:text="New Delhi"
+            android:textColor="#1F2937"
             android:textSize="17sp" />
 
         <RadioButton
             android:id="@+id/option3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:buttonTint="#4F46E5"
+            android:padding="14dp"
             android:text="Chennai"
+            android:textColor="#1F2937"
             android:textSize="17sp" />
 
     </RadioGroup>
 
-    <!-- Feedback -->
     <TextView
         android:id="@+id/feedback"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
         android:text=""
         android:textSize="15sp"
-        android:textAlignment="center"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/optionsGroup" />
 
-    <!-- Submit -->
     <Button
         android:id="@+id/submitButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Submit Answer"
-        android:textSize="16sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#4F46E5"
+        android:text="Submit Answer  →"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/feedback" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

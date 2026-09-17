@@ -33,6 +33,8 @@ class QuestionActivity : AppCompatActivity() {
         var result = 0
         var currque = 0
         sharedPref = getSharedPreferences("MyPrefsFile", MODE_PRIVATE)
+        var Queno : TextView = findViewById<TextView>(R.id.questionno)
+        Queno.text = " ${currque + 1} question of 3"
 
 
         fun loadQuestions(): List<Question> {
@@ -61,11 +63,12 @@ class QuestionActivity : AppCompatActivity() {
         val allQuestions = loadQuestions()
         val selectedQuestions = allQuestions.shuffled().take(3)
 
+
         fun showquestion(currque: Int) {
             if (currque < 3) {
                 findViewById<RadioGroup>(R.id.optionsGroup).clearCheck()
                 var question1 = selectedQuestions.get(currque)
-
+                Queno.text = " ${currque + 1} question of 3"
                 tvquestion = findViewById<TextView>(R.id.question)
                 tvquestion.text = question1.question
                 var radio1 = findViewById<RadioButton>(R.id.option1)
@@ -91,6 +94,8 @@ class QuestionActivity : AppCompatActivity() {
                 finish()
             }
         }
+
+        showquestion(0)
 
         findViewById<Button>(R.id.submitButton).setOnClickListener {
 
